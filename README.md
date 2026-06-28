@@ -1,32 +1,32 @@
-# Technology Stack Guidelines
+# Technology Stack Guide
 
-This repository provides a guideline for choosing technology stacks in both **prototype** and **production** stages.
+This repository provides guidelines for choosing technology stacks in both **prototype** and **production** stages.
 
 It covers multiple languages and environments, with clear notes on their strengths, weaknesses, and recommended use cases.
 
 ## 📖 Documentation
 
 - **README.md** — Project overview and quick reference.
-- **docs/guideline.md** — Full guideline in English (formal technical style).
-- **docs/guideline-zh.md** — Guideline in Chinese (original notes).
+- **docs/guide.md** — Guide in English (formal technical style).
+- **docs/guide-zh.md** — Guide in Chinese (original notes).
 
 ## 🚀 Quick Links
 
-- [Prototypes](docs/guideline.md#importance-of-prototypes)
-- [Production Systems](docs/guideline.md#writing-the-production-system)
-- [POSIX sh](docs/guideline.md#posix-sh)
-- [Perl / Python / Ruby](docs/guideline.md#perl--python--ruby)
-- [OCaml / Rust](docs/guideline.md#ocaml--rust)
-- [JavaScript](docs/guideline.md#javascript)
-- [PHP](docs/guideline.md#php)
-- [F#](docs/guideline.md#f)
-- [Dart](docs/guideline.md#dart)
-- [C / C++](docs/guideline.md#c--c)
-- [Go (Golang)](docs/guideline.md#go-golang)
+- [Prototypes](docs/guide.md#importance-of-prototypes)
+- [Production Systems](docs/guide.md#writing-the-production-system)
+- [POSIX sh](docs/guide.md#posix-sh)
+- [Perl / Python / Ruby](docs/guide.md#perl--python--ruby)
+- [OCaml / Rust](docs/guide.md#ocaml--rust)
+- [JavaScript](docs/guide.md#javascript)
+- [PHP](docs/guide.md#php)
+- [F#](docs/guide.md#f)
+- [Dart](docs/guide.md#dart)
+- [C / C++](docs/guide.md#c--c)
+- [Go (Golang)](docs/guide.md#go-golang)
 
 ## 🛠 Scope
 
-This guideline is intended for open‑source projects in general.  
+This guide is intended for open‑source projects in general.  
 It focuses on technology stack choices across different stages:
 
 - Prototype stage — fast iteration and concept validation
@@ -37,7 +37,7 @@ It focuses on technology stack choices across different stages:
 ## 🤝 Contributing
 
 Contributions are welcome.  
-Please open an Issue or Pull Request, and follow the style and structure in [docs/guideline.md](docs/guideline.md).
+Please open an Issue or Pull Request, and follow the style and structure in [docs/guide.md](docs/guide.md).
 
 ## License
 
