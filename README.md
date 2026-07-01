@@ -12,6 +12,7 @@ It covers multiple languages and environments, with clear notes on their strengt
 
 ## 🚀 Quick Links
 
+- [Models](docs/guide.md#build-the-model-first)
 - [Prototypes](docs/guide.md#importance-of-prototypes)
 - [Production Systems](docs/guide.md#writing-the-production-system)
 - [POSIX sh](docs/guide.md#posix-sh)

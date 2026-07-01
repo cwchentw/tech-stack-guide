@@ -8,6 +8,11 @@ This guide first outlines the overall direction of selection, followed by an ana
 
 ## Technology Selection
 
+### Modeling Phase
+
+* Start by recording ideas in free text.
+* When appropriate, use OCaml for modeling.
+
 ### Prototype Stage
 
 * **Workflow Projects**: Use POSIX sh.
@@ -32,6 +37,13 @@ This guide first outlines the overall direction of selection, followed by an ana
 * If a technology stack stops receiving updates or is removed from the system, migrate the project as soon as possible.
 * If the deployment environment is deprecated and the original stack can no longer be used, migrate the project whenever feasible.
 * If performance bottlenecks persist despite correct data structures and algorithms, consider migrating the project.
+
+## Build the Model First
+
+* Begin by recording ideas in free text. At this stage, don’t worry too much about correctness — capturing the inspiration matters more.
+* Once the initial model is roughly confirmed, use OCaml to validate its feasibility.
+* When modeling in OCaml, it’s enough for the types to be correct and the code to compile; you don’t need to produce a fully usable program.
+* Take advantage of OCaml’s Variants and Pattern Matching to establish a clear type hierarchy.
 
 ## Importance of Prototypes
 
