@@ -21,12 +21,13 @@ This guide first outlines the overall direction of selection, followed by an ana
 ### Production Stage
 
 * Use either OCaml or Rust.
+* If the team is not familiar with ML, use either Java or C#.
 
 ### Specific Deployment Environments
 
 * **Browser and Edge Function Projects**: Use JavaScript.
 * **Content Website Projects**: Use PHP.
-* **Enterprise Projects**: Use F#.
+* **Enterprise Projects**: Use F#. Alternatively, use Java or C#.
 * **Mobile Projects**: Use Dart.
 
 > **Note**: Deployment stacks should only be considered when constrained by specific deployment targets. Since deployment stacks often have inherent limitations or drawbacks, they are not used as prototype or production stacks.
@@ -112,6 +113,7 @@ CWD=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd) || exit 1
 
 * The core focus of production projects is long-term stability. Therefore, choose technology stacks with slower development iterations but higher code quality and lower maintenance costs.
 * Both OCaml and Rust feature powerful compilers that perform static checks at compile time, eliminating most common errors.
+* The compilers of Java and C# are less effective at enforcing code quality, but their ecosystems are comprehensive, making production implementation easier.
 
 ### Project Setup
 
