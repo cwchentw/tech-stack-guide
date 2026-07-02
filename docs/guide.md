@@ -10,8 +10,9 @@ This guide first outlines the overall direction of selection, followed by an ana
 
 ### Modeling Phase
 
-* Start by recording ideas in free text.
-* When appropriate, use OCaml for modeling.
+- Start by recording ideas using free text.
+- Use OCaml for abstract logical modeling.
+- Use Octave for mathematical computation modeling.
 
 ### Prototype Stage
 
@@ -41,10 +42,22 @@ This guide first outlines the overall direction of selection, followed by an ana
 
 ## Build the Model First
 
-* Begin by recording ideas in free text. At this stage, don’t worry too much about correctness — capturing the inspiration matters more.
-* Once the initial model is roughly confirmed, use OCaml to validate its feasibility.
-* When modeling in OCaml, it’s enough for the types to be correct and the code to compile; you don’t need to produce a fully usable program.
-* Take advantage of OCaml’s Variants and Pattern Matching to establish a clear type hierarchy.
+- Begin by recording ideas in free text. At this stage, don’t worry too much about accuracy — capturing the ideas is more important.
+- Once the model is preliminarily confirmed, choose appropriate tools for modeling based on the context.
+- When modeling, you can hardcode literal values and create only minimal examples; there’s no need to write usable programs.
+- It is not recommended to skip modeling and jump straight to prototyping. Modeling takes less time and helps eliminate unsuitable projects early.
+
+### OCaml
+
+- When modeling with OCaml, as long as the type hierarchy is correct and the code compiles, that’s sufficient — you don’t need a complete process.
+- Functions can be written as stubs without full implementation.
+- Take advantage of OCaml’s Variants and Pattern Matching to build type hierarchies.
+
+### Octave
+
+- Writing computation processes as functions is helpful for future implementation references.
+- A small set of literal values can serve as placeholder data; original datasets are not required.
+- Since Octave offers weak code protection, it is not recommended to use Octave directly for production development.
 
 ## Importance of Prototypes
 
