@@ -18,6 +18,7 @@ It covers multiple languages and environments, with clear notes on their strengt
 - [POSIX sh](docs/guide.md#posix-sh)
 - [Perl / Python / Ruby](docs/guide.md#perl--python--ruby)
 - [OCaml / Rust](docs/guide.md#ocaml--rust)
+- [Java / C#](docs/guide.md#java--c)
 - [JavaScript](docs/guide.md#javascript)
 - [PHP](docs/guide.md#php)
 - [F#](docs/guide.md#f)

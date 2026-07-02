@@ -113,7 +113,6 @@ CWD=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd) || exit 1
 
 * The core focus of production projects is long-term stability. Therefore, choose technology stacks with slower development iterations but higher code quality and lower maintenance costs.
 * Both OCaml and Rust feature powerful compilers that perform static checks at compile time, eliminating most common errors.
-* The compilers of Java and C# are less effective at enforcing code quality, but their ecosystems are comprehensive, making production implementation easier.
 
 ### Project Setup
 
@@ -130,6 +129,13 @@ CWD=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd) || exit 1
 * Through ownership and the borrow checker, Rust achieves memory safety without relying on garbage collection.
 * While leaning toward low-level systems programming, it also incorporates many high-level features from functional and object-oriented paradigms.
 * Offers zero-cost abstractions and extreme performance, making it the top choice for new projects replacing C or C++.
+
+## Java / C#
+
+- The essence of Java / C# lies in being enterprise stacks, characterized by libraries that address common problems, allowing developers to focus on core logic.
+- Enterprise stacks adopt managed code, so developers don’t need to handle memory management, reducing the likelihood of program crashes.
+- The compilers of Java / C# are not particularly strong in enforcing code quality, but the ecosystems are complete, making implementation straightforward.
+- It is rare to encounter projects that can only be solved by one of these stacks; choosing between Java and C# is usually a matter of team preference.
 
 ## JavaScript
 
