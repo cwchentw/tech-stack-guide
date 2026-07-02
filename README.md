@@ -1,16 +1,16 @@
-# Technology Stack Guide
+# Research‑Oriented Technology Stack Guide
 
-This repository provides guidelines for choosing technology stacks in both **prototype** and **production** stages.
-
-It covers multiple languages and environments, with clear notes on their strengths, weaknesses, and recommended use cases.
+This repository offers practical guidelines for selecting technology stacks across both **prototype** and **production** stages.  
+It spans multiple languages and environments, highlighting their strengths, limitations, and recommended use cases.
 
 ## 🦉 Background
 
-This guide originates from a research‑style methodology where programming is used as a tool to explore the *problem space*.  
-Unlike typical industry workflows that move directly from requirements to implementation, this approach introduces an extra *modeling* stage before prototyping.  
-The purpose of modeling is to filter out unsuitable problems early, ensuring that only viable directions proceed to prototype and eventually to production.
+This guide is rooted in a research‑driven methodology, where programming serves as a tool to explore the *problem space*.  
+Unlike conventional industry workflows that move directly from requirements to implementation, this approach introduces an additional *modeling* phase before prototyping.
 
-As a result, the guide emphasizes both **prototype** and **production** stages, reflecting a workflow that balances research rigor with engineering practicality.
+The modeling stage acts as a filter: it helps identify unsuitable directions early, ensuring that only viable problems advance to prototype and eventually to production.
+
+By design, the guide emphasizes both **prototype** and **production** stages, reflecting a workflow that balances the rigor of research with the pragmatism of engineering.
 
 ## 📖 Documentation
 

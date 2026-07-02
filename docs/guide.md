@@ -1,25 +1,26 @@
-# Technology Selection Guide
+# Research‑Oriented Technology Stack Guide
 
 ## Preface
 
-This document is a practical subset of the five-stage research-style methodology:
+This document is a practical subset of a five‑stage research‑style methodology:
 
-| Meta‑Guide    | Tech‑Stack‑Guide |
-|---------------|------------------|
-| Problem Space | *(omitted)*      |
-| Abstraction   | *(omitted)*      |
-| Modeling      | Modeling         |
-| Prototype     | Prototype        |
-| Product       | Product          |
+| Meta‑Guide      | Tech‑Stack‑Guide |
+|-----------------|------------------|
+| Problem Space   | *(omitted)*      |
+| Abstraction     | *(omitted)*      |
+| Modeling        | Modeling         |
+| Prototype       | Prototype        |
+| Product         | Product          |
 
-The meta‑guide includes conceptual stages such as *Problem Space* and *Abstraction*, which are more about thinking frameworks than programming.  
-The tech‑stack‑guide focuses only on the engineering‑related stages (*Modeling → Prototype → Product*), where tools, languages, and workflows directly apply.
+The **meta‑guide** covers conceptual stages such as *Problem Space* and *Abstraction*, which serve primarily as thinking frameworks rather than programming practices.
 
-The extra *Modeling* stage exists to filter out unsuitable problems before investing effort in prototyping. This step helps avoid wasted development on projects that are conceptually flawed.
+The **tech‑stack‑guide**, by contrast, focuses only on the engineering‑related stages (*Modeling → Prototype → Product*), where tools, languages, and workflows directly apply.
 
-Technology choices are often influenced by personal experience and team preferences. It is recommended to use this guide as a reference and then adjust according to actual needs.
+The additional *Modeling* stage plays a crucial role: it filters out unsuitable problems before effort is invested in prototyping. This helps prevent wasted development on projects that are conceptually unsound.
 
-This guide first outlines the overall direction of selection, followed by an analysis of the advantages and disadvantages of each technology stack.
+Technology choices are inevitably shaped by personal experience and team preferences. Therefore, this guide should be used as a reference point, to be adapted according to actual needs.
+
+The document first outlines the overall principles for technology selection, followed by an analysis of the advantages and limitations of each stack.
 
 ## Technology Selection
 
@@ -36,8 +37,10 @@ This guide first outlines the overall direction of selection, followed by an ana
 
 ### Production Stage
 
-* Use either OCaml or Rust.
+* Use either OCaml, F# or Rust.
 * If the team is not familiar with ML, use either Java or C#.
+
+> **Note**: F# is prioritized as it extends the ML modeling approach into enterprise production systems.
 
 ### Specific Deployment Environments
 
