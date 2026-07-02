@@ -5,8 +5,8 @@ It spans multiple languages and environments, highlighting their strengths, limi
 
 ## 🦉 Background
 
-This guide is rooted in a research‑driven methodology, where programming serves as a tool to explore the *problem space*.  
-Unlike conventional industry workflows that move directly from requirements to implementation, this approach introduces an additional *modeling* phase before prototyping.
+This guide is rooted in a research‑driven methodology, where programming serves as a tool to explore the problem space.  
+Unlike conventional industry workflows that move directly from requirements to implementation, this approach introduces an additional **modeling** phase before prototyping.
 
 The modeling stage acts as a filter: it helps identify unsuitable directions early, ensuring that only viable problems advance to prototype and eventually to production.
 
@@ -39,10 +39,11 @@ By design, the guide emphasizes both **prototype** and **production** stages, re
 This guide is intended for open‑source projects in general.  
 It focuses on technology stack choices across different stages:
 
-- Prototype stage — fast iteration and concept validation
-- Production stage — long‑term stability and maintainability
-- Specific deployment environments — browser, content sites, enterprise, mobile
-- Legacy projects — maintenance and migration strategies
+- **Modeling stage** — abstract exploration and problem filtering
+- **Prototype stage** — fast iteration and concept validation
+- **Production stage** — long‑term stability and maintainability
+- **Specific deployment environments** — browser, content sites, enterprise, mobile
+- **Legacy projects** — maintenance and migration strategies
 
 ## 🤝 Contributing
 
