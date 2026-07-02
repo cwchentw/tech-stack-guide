@@ -4,6 +4,14 @@ This repository provides guidelines for choosing technology stacks in both **pro
 
 It covers multiple languages and environments, with clear notes on their strengths, weaknesses, and recommended use cases.
 
+## 🦉 Background
+
+This guide originates from a research‑style methodology where programming is used as a tool to explore the *problem space*.  
+Unlike typical industry workflows that move directly from requirements to implementation, this approach introduces an extra *modeling* stage before prototyping.  
+The purpose of modeling is to filter out unsuitable problems early, ensuring that only viable directions proceed to prototype and eventually to production.
+
+As a result, the guide emphasizes both **prototype** and **production** stages, reflecting a workflow that balances research rigor with engineering practicality.
+
 ## 📖 Documentation
 
 - **README.md** — Project overview and quick reference.

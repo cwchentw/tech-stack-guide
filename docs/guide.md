@@ -1,6 +1,21 @@
 # Technology Selection Guide
 
-## Prologue
+## Preface
+
+This document is a practical subset of the five-stage research-style methodology:
+
+| Meta‑Guide    | Tech‑Stack‑Guide |
+|---------------|------------------|
+| Problem Space | *(omitted)*      |
+| Abstraction   | *(omitted)*      |
+| Modeling      | Modeling         |
+| Prototype     | Prototype        |
+| Product       | Product          |
+
+The meta‑guide includes conceptual stages such as *Problem Space* and *Abstraction*, which are more about thinking frameworks than programming.  
+The tech‑stack‑guide focuses only on the engineering‑related stages (*Modeling → Prototype → Product*), where tools, languages, and workflows directly apply.
+
+The extra *Modeling* stage exists to filter out unsuitable problems before investing effort in prototyping. This step helps avoid wasted development on projects that are conceptually flawed.
 
 Technology choices are often influenced by personal experience and team preferences. It is recommended to use this guide as a reference and then adjust according to actual needs.
 
