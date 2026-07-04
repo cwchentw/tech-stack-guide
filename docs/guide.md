@@ -28,7 +28,7 @@ The document first outlines the overall principles for technology selection, fol
 
 - Start by recording ideas using free text.
 - Use OCaml for abstract logical modeling.
-- Use Octave for mathematical computation modeling.
+- Use Julia for mathematical computation modeling.
 
 ### Prototype Stage
 
@@ -71,11 +71,11 @@ The document first outlines the overall principles for technology selection, fol
 - Functions can be written as stubs without full implementation.
 - Take advantage of OCaml’s Variants and Pattern Matching to build type hierarchies.
 
-### Octave
+### Julia
 
 - Writing computation processes as functions is helpful for future implementation references.
 - A small set of literal values can serve as placeholder data; original datasets are not required.
-- Since Octave offers weak code protection, it is not recommended to use Octave directly for production development.
+- Julia is a general-purpose programming language, but since its non-mathematical features overlap with other technology stacks, there is no need to study it in depth.
 
 ## Importance of Prototypes
 
