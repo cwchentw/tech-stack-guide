@@ -33,20 +33,18 @@ The document first outlines the overall principles for technology selection, fol
 ### Prototype Stage
 
 * **Workflow Projects**: Use POSIX sh.
-* **Other Project Types**: Use one of Perl, Python, or Ruby.
+* **Other Project Types**: Use one of Perl, Python, Ruby or Julia.
 
 ### Production Stage
 
 * Use either OCaml, F# or Rust.
 * If the team is not familiar with ML, use either Java or C#.
 
-> **Note**: F# is prioritized as it extends the ML modeling approach into enterprise production systems.
-
 ### Specific Deployment Environments
 
 * **Browser and Edge Function Projects**: Use JavaScript.
 * **Content Website Projects**: Use PHP.
-* **Enterprise Projects**: Use F#. Alternatively, use Java or C#.
+* **Enterprise Projects**: Use Java or C#.
 * **Mobile Projects**: Use Dart.
 
 > **Note**: Deployment stacks should only be considered when constrained by specific deployment targets. Since deployment stacks often have inherent limitations or drawbacks, they are not used as prototype or production stacks.
