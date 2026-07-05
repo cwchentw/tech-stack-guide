@@ -20,12 +20,13 @@ By design, the guide emphasizes both **prototype** and **production** stages, re
 
 ## 🚀 Quick Links
 
-- [Models](docs/guide.md#build-the-model-first)
-- [Prototypes](docs/guide.md#importance-of-prototypes)
-- [Production Systems](docs/guide.md#writing-the-production-system)
+- [OCaml](docs/guide.md#ocaml)
+- [Julia](docs/guide.md#julia)
 - [POSIX sh](docs/guide.md#posix-sh)
-- [Perl / Python / Ruby](docs/guide.md#perl--python--ruby)
-- [OCaml / Rust](docs/guide.md#ocaml--rust)
+- [Perl](docs/guide.md#perl)
+- [Python](docs/guide.md#python)
+- [Ruby](docs/guide.md#ruby)
+- [Rust](docs/guide.md#rust)
 - [Java / C#](docs/guide.md#java--c)
 - [JavaScript](docs/guide.md#javascript)
 - [PHP](docs/guide.md#php)
@@ -54,3 +55,7 @@ Please open an Issue or Pull Request, and follow the style and structure in [doc
 
 © 2026 ByteBard  
 Licensed under the Creative Commons Attribution 4.0 International License.
+
+## See Also
+
+* [from-research-to-product](https://github.com/cwchentw/from-research-to-product): A research-oriented pipeline that guides the selection of the tech stacks presented here.
