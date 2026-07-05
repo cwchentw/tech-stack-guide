@@ -24,11 +24,14 @@ The document first outlines the overall principles for technology selection, fol
 
 ## Technology Selection
 
-### Modeling Phase
+### Modeling Stage
 
-- Start by recording ideas using free text.
-- Use OCaml for abstract logical modeling.
-- Use Julia for mathematical computation modeling.
+* Begin with free text to capture initial ideas and inspirations.
+* Use **OCaml** for modeling logical relationships.
+* Use **Julia** for modeling mathematical computations.
+* If a model requires both logical relationships and mathematical computations, choose either OCaml or Julia depending on team preference.
+* For mathematical operations within OCaml, consider using the `Lwt` library.
+* For logical relationship checks within Julia, consider using the `MLStyle` library.
 
 ### Prototype Stage
 
