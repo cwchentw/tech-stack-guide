@@ -82,8 +82,11 @@ The document first outlines the overall principles for technology selection, fol
 
 ## Julia
 
-- Writing computation processes as functions is helpful for future implementation references.
-- A small set of literal values can serve as placeholder data; original datasets are not required.
+* Uses JIT compilation via LLVM and automatically calls high‑performance numerical libraries such as BLAS, combining characteristics of both prototyping and production.
+* Employs gradual type annotations, allowing projects to start without explicit types and add them later when transitioning to production.
+* Replaces traditional object systems with structures and multiple dispatch.
+* Writing computational processes as functions provides useful references for future implementation.
+* A small set of literal values can serve as representative data; raw datasets are not required.
 
 ## POSIX sh
 
