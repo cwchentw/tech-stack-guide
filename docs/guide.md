@@ -71,6 +71,14 @@ The document first outlines the overall principles for technology selection, fol
 * OCaml, F# and Rust feature powerful compilers that perform static checks at compile time, eliminating most common errors.
 * It is recommended to use community-standard project build and management tools to generate a template project, then copy this template into the main Git repository to begin development.
 
+## Minimal Learning Environment
+
+* When exploring a new tech stack, always name the entry file `program` or `Program`, then choose the appropriate extension based on the stack.
+* For practicing language features, consistently use the same entry file to avoid the overhead of setting up projects.
+* Accelerate the learning process by leveraging template projects, compilation scripts, and artifact‑cleaning tools.
+* Preserve valuable sample code in private GitHub repositories; the entry file itself does not need to be retained.
+* Only when progressing to building applications or libraries should you dive into the stack’s project management tools.
+
 ## OCaml
 
 * Built-in efficient garbage collection, so developers do not need to manually manage memory lifecycles.
