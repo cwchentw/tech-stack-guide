@@ -71,6 +71,15 @@ The document first outlines the overall principles for technology selection, fol
 * OCaml, F# and Rust feature powerful compilers that perform static checks at compile time, eliminating most common errors.
 * It is recommended to use community-standard project build and management tools to generate a template project, then copy this template into the main Git repository to begin development.
 
+## Stable Development Environment
+
+* Use mainstream Linux distributions with LTS releases inside WSL.
+* Keep the same distribution and LTS version across all machines.
+* Connect via VSCode Remote to WSL as a lightweight IDE.
+* Accelerate editing with Vim or Emacs keymap extensions.
+* Use `nano` for editing environment configuration files.
+* Do not switch IDEs or editors when changing tech stacks unless there is a clear reason.
+
 ## Minimal Learning Environment
 
 * When exploring a new tech stack, always name the entry file `program` or `Program`, then choose the appropriate extension based on the stack.
