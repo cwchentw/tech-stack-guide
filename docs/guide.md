@@ -88,6 +88,14 @@ The document first outlines the overall principles for technology selection, fol
 * Preserve valuable sample code in private GitHub repositories; the entry file itself does not need to be retained.
 * Only when progressing to building applications or libraries should you dive into the stack’s project management tools.
 
+## Tech Stack Versioning
+
+* If the tech stack has a defined lifecycle, choose the LTS version rather than the latest release.
+* If the tech stack does not have a defined lifecycle, choose the stable version rather than the latest release.
+* Treat syntax and standard libraries as tools for solving problems, not as knowledge to be memorized.
+* Write code using features from LTS or stable versions to maintain maximum compatibility.
+* Avoid writing code with experimental features, as they may be deprecated or discarded in the future.
+
 ## OCaml
 
 * Built-in efficient garbage collection, so developers do not need to manually manage memory lifecycles.
