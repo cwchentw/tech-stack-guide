@@ -37,11 +37,14 @@
 
 * **Workflow 專案**：採用 POSIX sh。
 * **其他類型專案**：採用 Perl、Python、Ruby 或 Julia 之一。
+* 也可以繼續延伸模型的程式碼，轉成原型，不一定要從頭寫。
 
 ### 成品階段
 
 * 採用 OCaml、F# 或 Rust 之一。
 * 若團隊不習慣 ML，也可以用 Java 或 C# 之一。
+* 可以用 managed code 搭配 kernel code（C、GPU、Fortran），在易用性及效能間取得平衡。
+* 當成品需考慮部署時，可直接用部署棧實作，不需要實作兩次。詳見下一小節。
 
 ### 特定部署環境
 

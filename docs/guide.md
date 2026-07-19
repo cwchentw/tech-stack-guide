@@ -37,11 +37,14 @@ The document first outlines the overall principles for technology selection, fol
 
 * **Workflow Projects**: Use POSIX sh.
 * **Other Project Types**: Use one of Perl, Python, Ruby or Julia.
+* It’s also possible to build on the model’s code and convert it into a prototype, rather than writing everything from the ground up.
 
 ### Production Stage
 
 * Use either OCaml, F# or Rust.
 * If the team is not familiar with ML, use either Java or C#.
+* Managed code can be combined with kernel code (C, GPU, Fortran) to achieve a balance between ease of use and performance.
+* For deployment considerations, the deployment stack can be used directly, avoiding duplicate implementation. Refer to the next subsection for details.
 
 ### Specific Deployment Environments
 
